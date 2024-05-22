@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(111, 109, 109);
+}
+
+div{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   display: inline-flex;
+   padding: 30px;
+}
+#a{
+     background-color: rgb(35, 49, 66);
+     color: white;
+     display: inline-block;
+
+}
+#b{
+    background-color: antiquewhite;
+    display: inline-block;
+}
+h1{
+    padding :70px;
+    margin-left: 50px;
+    text-align: center;
+}
+#c{
+    display: inline-flex;
+    font-family: sans-serif;
+    line-height: 15px;
+}
+#d{
+    
+    position: relative;
+    bottom: 600px;
+    right: 170px;
+    text-align: center;
+    margin-left: 150px;
+     font-size: 30px;
+}
+#logo{
+    border-radius: 50px;
+    background-image: url("pic.jpeg");
+    
+    display: flex;
+    height: 50px;
+    width:50px;
+    justify-content: center;
+    background-color: rgb(39, 179, 132);
+    position: relative;
+    bottom: 1170px;
+    left: 160px;
+}
+#e{
+    position: relative;
+    bottom: 1750px;
+    right:20px;
+    text-align: center;
+}
+#f{
+    position: relative;
+    bottom: 1150px;
+    text-align: center;
+    right: 20px;
+}
+#aa{
+     display: inline-block;
+     position: relative;
+     top:5px;
+}
+#bb{
+    display: flex;
+    justify-content: space-evenly; 
+    position: relative;
+    bottom: 600px;
+}
+#cc{
+    position: relative;
+    bottom: 1200px;
+    right: 120px;
+}
+button{
+    background-color: rgb(122, 180, 199);
+    color: white;
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    position: relative;
+    bottom:1800px;
+    right : 20px;
+}
